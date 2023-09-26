@@ -21,6 +21,4 @@ public class District {
         this.districtNumber = districtNumber;
         this.districtName = districtName;
     }
-
-
 }
