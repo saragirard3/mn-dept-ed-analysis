@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
 
 public interface DistrictService {
-    District findById(Integer id);
+    District getDistrictyById(Integer id);
 
-    List<District> findAll();
+    List<District> getAllTransactions();
 }
